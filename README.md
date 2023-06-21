@@ -6,7 +6,7 @@ This section presents the definitions and examples of the main techniques to tex
 
 ### Stemming and lemmatisation
 
-I like these definition from the wikipedia to distinguish between [stemming](https://en.wikipedia.org/wiki/Lemmatisation) and [lemmatisation](https://en.wikipedia.org/wiki/Lemmatisation):
+I like these definition from the wikipedia to distinguish between [stemming](https://en.wikipedia.org/wiki/Stemming) and [lemmatisation](https://en.wikipedia.org/wiki/Lemmatisation):
 
 ```
 In linguistic morphology and information retrieval, stemming is the process for reducing inflected (or sometimes derived) words to their stem, base or root form—generally a written word form. The stem need not be identical to the morphological root of the word; it is usually sufficient that related words map to the same stem, even if this stem is not in itself a valid root.
