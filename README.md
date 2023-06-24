@@ -1,4 +1,4 @@
-This repository contains explanations, pieces of code and projects that I considered important for my understading of the main aspects of NLP
+This repository contains explanations, pieces of code and projects that I considered important for my understading of the main aspects of NLP. Anaconda + Python 3.10 + Pipenv were used to manage the folders with the projects.
 
 ## Data Preprocessing
 
