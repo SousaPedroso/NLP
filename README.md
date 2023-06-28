@@ -39,3 +39,19 @@ Instead of word counting, we can process _tokens_ of a document with respect to 
 ![TF formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/dd4f8a91dd0d28a11c00c94a13a315a5b49a8070)
 
 ![IDF formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/ac67bc0f76b5b8e31e842d6b7d28f8949dab7937)
+
+## Machine Learning Algorithms
+
+### Word to vector (word2vec)
+
+Despite we had the previous processing methods to check the term frequency or the relationship with the documents, we can not determine semantic meaning to the text. Word2vec is composed by two NN architectures: In the first one (CBOW- Continuous Bag Of Words), Word2vec tries to predict the word $w(t)$ given other surrounding words (which belongs to the context, consider a corpus with the word $w(t)$). In the second one (Skip-gram), given the word $w(t)$, we try to predict the possible contexts associated to it.
+
+For this, we consider a space with $n$ dimensions, where $n$ is number of uniques words in all documents. Each word belongs to a dimension, how can be seen in the following image from [medium](https://medium.com/@everton.tomalok/word2vec-e-sua-import%C3%A2ncia-na-etapa-de-pr%C3%A9-processamento-d0813acfc8ab):
+
+![word2vec](https://miro.medium.com/v2/resize:fit:720/format:webp/1*b06OA4v3x3yhQiFNNzbzow.png)
+
+Each architecture can be seen below:
+
+![CBOW](https://miro.medium.com/v2/resize:fit:640/format:webp/1*bkrBASpteKfCaxZDEEeN6g.png)
+
+![SKIP-GRAM](https://miro.medium.com/v2/resize:fit:640/format:webp/1*SiAMnzq7twezLitaFOwRlw.png)
